@@ -61,8 +61,11 @@ if (module.hot && typeof module.hot.dispose === 'function') {
 var connection = new SockJS(
   url.format({
     protocol: window.location.protocol,
-    hostname: window.location.hostname,
-    port: window.location.port,
+    // hostname: window.location.hostname,
+    // port: window.location.port,
+    // https://github.com/facebook/create-react-app/pull/1588/commits/532b4636716b3006d848683131f96395e546fc1e
+    hostname: process.env.HOST || window.location.hostname,
+    port: process.env.PORT || window.location.port,
     // Hardcoded in WebpackDevServer
     pathname: '/sockjs-node',
   })
