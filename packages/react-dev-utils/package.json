@@ -1,5 +1,5 @@
 {
-  "name": "react-dev-utils",
+  "name": "@nikkocruz1989/react-dev-utils",
   "version": "9.0.1",
   "description": "Webpack utilities used by Create React App",
   "repository": {

@@ -1,5 +1,5 @@
 {
-  "name": "react-scripts",
+  "name": "@nikkocruz1989/react-scripts",
   "version": "3.0.1",
   "description": "Configuration and scripts for Create React App.",
   "repository": {
@@ -68,7 +68,7 @@
     "postcss-preset-env": "6.6.0",
     "postcss-safe-parser": "4.0.1",
     "react-app-polyfill": "^1.0.1",
-    "react-dev-utils": "^9.0.1",
+    "@nikkocruz1989/react-dev-utils": "^9.0.1",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "semver": "6.0.0",
